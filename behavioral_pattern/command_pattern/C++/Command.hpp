@@ -4,10 +4,9 @@
 
 class Command{
 public:
-    Command(Receiver*);
+    Command();
     virtual ~Command();
 	virtual void execute() = 0;
 
 private:
-    Receiver * _receiver;
 };
