@@ -10,6 +10,11 @@ _params(params)
     cout << "CopyCommand::init()" << endl;
 }
 
+CopyCommand::~CopyCommand()
+{
+    
+}
+
 void CopyCommand::execute()
 {
     cout << "CopyCommand::execute()" << endl;
